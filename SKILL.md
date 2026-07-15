@@ -104,6 +104,10 @@ Report the saved-project count, total image count, total size, validation result
 
 ## Safety and cleanup
 
+- Work only with moodboards and projects the user can access through their normal Behance session and is permitted to save.
+- Never bypass authentication, access controls, CAPTCHAs, paywalls, or geographic restrictions.
+- Never inspect, copy, expose, or persist browser cookies, session tokens, passwords, or other credentials.
+- Keep downloads local to the user-selected output folder. Do not upload, publish, or share extracted images unless the user separately requests that action and confirms they have the necessary rights.
 - Never delete or alter folders outside the output root created for this extraction.
 - If recommendations were accidentally downloaded, stop first, compute a dry-run removal list from the authoritative manifest, verify every resolved path remains inside the output root, and remove only the extra folders.
 - Preserve unrelated user files and pre-existing work.

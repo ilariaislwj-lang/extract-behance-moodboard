@@ -1,5 +1,8 @@
 # Extract Behance Moodboard
 
+[![Latest release](https://img.shields.io/github/v/release/ilariaislwj-lang/extract-behance-moodboard?display_name=tag)](https://github.com/ilariaislwj-lang/extract-behance-moodboard/releases/latest)
+[![Repository](https://img.shields.io/badge/GitHub-public-181717?logo=github)](https://github.com/ilariaislwj-lang/extract-behance-moodboard)
+
 一个用于 Codex 的 Skill：只提取 **Behance 情绪板中实际收藏的项目**，逐个下载项目正文里的高清图片，并按项目名称建立独立文件夹。
 
 它重点解决 Behance 页面中最容易出错的问题：情绪板下方会继续加载推荐项目，不能把页面里所有 `/gallery/` 链接都当成收藏内容。
@@ -51,6 +54,10 @@ git clone https://github.com/ilariaislwj-lang/extract-behance-moodboard.git \
 ```
 
 安装后重新打开一个 Codex 任务，使 Skill 出现在可用 Skill 列表中。
+
+### 下载发布包
+
+也可以从 [GitHub Releases](https://github.com/ilariaislwj-lang/extract-behance-moodboard/releases) 下载已经校验过的 ZIP 包。解压后，将 `extract-behance-moodboard` 文件夹放进 Codex 的 `skills` 目录，再新建一个任务使用。
 
 ## 在 Codex 中使用
 
@@ -189,4 +196,15 @@ Windows 文件夹名称中不允许的字符会替换成可读的全角字符，
 
 - 请只下载你有权访问和保存的内容。
 - 项目的版权仍属于原作者。
+- 不要使用本 Skill 绕过登录、访问限制、CAPTCHA、付费墙或地区限制。
+- Skill 不会读取或保存浏览器 Cookie、密码或会话令牌。
 - Behance 页面结构可能变化；当收藏数量与清单数量不一致时，应先停止并重新确认收藏网格边界。
+
+## 隐私、安全与支持
+
+- [隐私政策](docs/PRIVACY.md)
+- [使用条款](docs/TERMS.md)
+- [支持说明](docs/SUPPORT.md)
+- [问题反馈](https://github.com/ilariaislwj-lang/extract-behance-moodboard/issues)
+
+本项目可作为 Skills-only 插件提交到 OpenAI 的公共插件目录。公开上架仍需经过平台身份验证和审核；仓库中的发布包、测试用例及提交材料用于完成该流程。

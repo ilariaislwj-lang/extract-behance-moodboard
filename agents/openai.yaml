@@ -1,0 +1,4 @@
+interface:
+  display_name: "Behance 情绪板图片提取"
+  short_description: "仅提取 Behance 情绪板已收藏项目并按项目名称下载完整原图"
+  default_prompt: "Use $extract-behance-moodboard to extract only projects saved in a Behance moodboard and download each project image into a same-named folder."
